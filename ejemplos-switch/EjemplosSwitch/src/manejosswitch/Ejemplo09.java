@@ -3,26 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplociclowhile;
+package manejosswitch;
 
 /**
  *
- * @author reroes
+ * @author Smart
  */
-public class Ejemplo02 {
+public class Ejemplo09 {
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int limite = 10;
-        int contador = 10;
-        
-        while (contador <= limite){
-            System.out.printf("Contador %d\n", contador);
-            contador = contador + 1;
-        }
-        
+        String ciudad = "loja";
+        System.out.printf("%s\n", ciudad.toLowerCase());
+        System.out.printf("%s\n", ciudad.toUpperCase());
+            
     }
+    
 }
